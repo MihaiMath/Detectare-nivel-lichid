@@ -1,0 +1,84 @@
+(ExpressProject "nivellichid"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "24.1 S002 (4270188)  [1/23/2025]-[07/08/25]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\nivellichid.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (Sort User)
+    (File ".\nivellichid_output\bom.sch.csv"
+      (Type "Report")
+      (DisplayName ".\NIVELLICHID_OUTPUT\BOM.SCH.CSV"))
+    (File ".\nivellichid-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\nivellichid-pspicefiles\schematic1\trs.sim"
+        (DisplayName "SCHEMATIC1-trs")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\nivellichid-pspicefiles\schematic1\dc.sim"
+        (DisplayName "SCHEMATIC1-dc")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\nivellichid-pspicefiles\schematic1\worst.sim"
+        (DisplayName "SCHEMATIC1-worst")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\nivellichid-pspicefiles\schematic1\carlo.sim"
+        (DisplayName "SCHEMATIC1-carlo")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\nivellichid-pspicefiles\schematic1\dc.sim"))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (MPSSessionName "mihai")
+  (PartMRUSelector
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\APL\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\mihai\desktop\materiale materii\sem2_an2\cad\proiect\nivellichid\nivellichid.dsn")
+      (Path "Design Resources"
+         "c:\users\mihai\desktop\materiale materii\sem2_an2\cad\proiect\nivellichid\nivellichid.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 496"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1120 24 514")
+        (Scroll "129 33")
+        (Zoom "126")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MIHAI\DESKTOP\MATERIALE MATERII\SEM2_AN2\CAD\PROIECT\NIVELLICHID\NIVELLICHID.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false"))
