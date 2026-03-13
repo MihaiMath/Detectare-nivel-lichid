@@ -1,2 +1,2 @@
-# Detectare-nivel-lichid
-In acest proiect am avut de..
+# Liquid Level Detector with Visual Signaling (OrCAD & PSpice)
+Acest proiect constă în proiectarea și simularea unui circuit electronic destinat măsurării nivelului de lichid dintr-un recipient (0–295 cm). Sistemul utilizează un senzor rezistiv (12k–24k $\Omega$) integrat într-o rețea de comparatoare analogice pentru a oferi semnalizare vizuală în timp real.Caracteristici cheie:Monitorizare pe 3 praguri: Nivel scăzut (<100 cm), mediu (100–200 cm) și ridicat (>200 cm).Arhitectură Analogică: Bazată pe amplificatoare operaționale TL082 configurate ca comparatoare.Analiză de Fiabilitate: Include simulări avansate de tip DC Sweep, Monte Carlo și Worst Case pentru a verifica precizia circuitului în funcție de toleranța componentelor (E96, 1%).Alimentare: Circuitul funcționează la o tensiune de 11V.
